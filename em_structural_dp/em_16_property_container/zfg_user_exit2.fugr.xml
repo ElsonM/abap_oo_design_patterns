@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>FG - User Exit for Prop. Cont. DP</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZFG_USER_EXIT2TOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZFG_USER_EXIT2</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZUSER_EXIT_PROP_CONTAINER</FUNCNAME>
+     <SHORT_TEXT>User Exit for Property Container Design Pattern</SHORT_TEXT>
+     <CHANGING>
+      <RSCHA>
+       <PARAMETER>CT_KONP</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZIF_DECORATOR2=&gt;TT_KONP</TYP>
+      </RSCHA>
+     </CHANGING>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>CT_KONP</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
